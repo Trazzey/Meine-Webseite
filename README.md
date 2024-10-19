@@ -7,49 +7,93 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #000;
+            color: #fff;
             margin: 0;
             padding: 0;
             text-align: center;
         }
+
         header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
+            background-color: #111;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 1px solid #333;
         }
+
         h1 {
             margin: 0;
-            font-size: 24px;
+            font-size: 28px;
+            letter-spacing: 2px;
         }
+
         main {
-            padding: 20px;
+            padding: 40px 20px;
         }
+
         .affiliate-links {
             list-style-type: none;
             padding: 0;
         }
+
         .affiliate-links li {
-            margin: 10px 0;
+            margin: 20px 0;
         }
+
         a {
-            color: #007BFF;
+            color: #fff;
             text-decoration: none;
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #fff;
+            transition: background-color 0.3s, color 0.3s;
         }
+
         a:hover {
-            text-decoration: underline;
+            background-color: #fff;
+            color: #000;
         }
+
+        /* Bild-Link Stil */
+        .affiliate-image {
+            max-width: 300px;
+            border: 2px solid #fff;
+            transition: transform 0.3s;
+        }
+
+        .affiliate-image:hover {
+            transform: scale(1.05);
+        }
+
     </style>
 </head>
 <body>
     <header>
-        <h1>Willkommen auf meiner Affiliate-Seite!</h1>
+        <h1>Willkommen auf meiner Affiliate-Seite</h1>
     </header>
+
     <main>
-        <p>Hier findest du nützliche Produkte, die ich empfehle:</p>
         <ul class="affiliate-links">
-            <li><a href="https://www.amazon.de/dp/B00AQl8VU4" target="_blank">Produkt 1</a></li>
-            <li><a href="https://www.amazon.de/dp/B00AQl8VU4" target="_blank">Produkt 2</a></li>
-            <li><a href="https://www.amazon.de/dp/B00AQl8VU4" target="_blank">Produkt 3</a></li>
+            <!-- Erstes Produkt -->
+            <li>
+                <a href="https://amzn.to/3NwTeqg" target="_blank">
+                    <img src="/mnt/data/CC76A4C5-1EED-45E6-B87F-D9D901B8BE28.jpeg" alt="Produkt 1" class="affiliate-image">
+                </a>
+            </li>
+
+            <!-- Zweites Produkt -->
+            <li>
+                <a href="https://example.com/produkt2" target="_blank">
+                    <img src="https://via.placeholder.com/300x200.png?text=Produkt+2" alt="Produkt 2" class="affiliate-image">
+                </a>
+            </li>
+
+            <!-- Drittes Produkt -->
+            <li>
+                <a href="https://example.com/produkt3" target="_blank">
+                    <img src="https://via.placeholder.com/300x200.png?text=Produkt+3" alt="Produkt 3" class="affiliate-image">
+                </a>
+            </li>
         </ul>
     </main>
 </body>
