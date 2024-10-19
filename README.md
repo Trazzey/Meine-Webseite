@@ -1,50 +1,4 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Affiliate-Seite</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        header {
-            background-color: #111;
-            color: #fff;
-            padding: 20px 0;
-            border-bottom: 1px solid #333;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 28px;
-            letter-spacing: 2px;
-        }
-
-        main {
-            padding: 40px 20px;
-        }
-
-        .affiliate-links {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .affiliate-links li {
-            margin: 20px 0;
-        }
-
-        a {
-            color: #fff;
-            text-decoration: none;
-            display: inline-block;
-            padding: 10px 20px;
+        padding: 10px 20px;
             border: 2px solid #fff;
             transition: background-color 0.3s, color 0.3s;
         }
@@ -91,10 +45,4 @@
             <!-- Drittes Produkt -->
             <li>
                 <a href="https://example.com/produkt3" target="_blank">
-                    <img src="https://via.placeholder.com/300x200.png?text=Produkt+3" alt="Produkt 3" class="affiliate-image">
-                </a>
-            </li>
-        </ul>
-    </main>
-</body>
-</html>
+                    <img src="https://via.placeholder.com/300x200.png?text=Produkt+3" alt="Produkt 3" class="affilia-image">
