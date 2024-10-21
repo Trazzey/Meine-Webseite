@@ -1,48 +1,80 @@
-        padding: 10px 20px;
-            border: 2px solid #fff;
-            transition: background-color 0.3s, color 0.3s;
-        }
+<!DOCTYPE html>
+<html lang="de">
 
-        a:hover {
-            background-color: #fff;
-            color: #000;
-        }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Affiliate-Seite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      /* schwarzer Hintergrund */
+      color: white;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
-        /* Bild-Link Stil */
-        .affiliate-image {
-            max-width: 300px;
-            border: 2px solid #fff;
-            transition: transform 0.3s;
-        }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+    }
 
-        .affiliate-image:hover {
-            transform: scale(1.05);
-        }
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
 
-    </style>
+    main {
+      padding: 20px;
+    }
+
+    .affiliate-links {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .affiliate-links li {
+      margin: 20px 0;
+    }
+
+    img {
+      width: 200px;
+      /* Bildgröße anpassen */
+      height: auto;
+      border-radius: 10px;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <h1>Willkommen auf meiner Affiliate-Seite</h1>
-    </header>
+  <header>
+    <h1>Willkommen auf PrimeLinks</h1>
+  </header>
+  <main>
+    <ul class="affiliate-links">
+      <li> <a href="https://amzn.to/3NwTEqg" target="_blank"> <img src="rsho.jpg" alt="Kopfhörer"> </a>
+        <p>Produkt 1: Kopfhörer</p>
+      </li>
+      <li> <a href="https://amzn.to/4eRhqJh" target="_blank"> <img src="öl.jpg" alt="Rosmarinöl"> </a>
+        <p>Rosmarinöl</p>
+      </li>
+      <li> <a href="https://amzn.to/drittesprodukt" target="_blank"> <img src="https://example.com/path-to-your-third-product-image.jpeg" alt="Produkt 3"> </a>
+        <p>Produkt 3</p>
+      </li>
+    </ul>
+  </main>
+</body>
 
-    <main>
-        <ul class="affiliate-links">
-            <!-- Erstes Produkt -->
-            <li>
-                <a href="https://amzn.to/3NwTeqg" target="_blank">
-                    <img src="/mnt/data/CC76A4C5-1EED-45E6-B87F-D9D901B8BE28.jpeg" alt="Produkt 1" class="affiliate-image">
-                </a>
-            </li>
-
-            <!-- Zweites Produkt -->
-            <li>
-                <a href="https://example.com/produkt2" target="_blank">
-                    <img src="https://via.placeholder.com/300x200.png?text=Produkt+2" alt="Produkt 2" class="affiliate-image">
-                </a>
-            </li>
-
-            <!-- Drittes Produkt -->
-            <li>
-                <a href="https://example.com/produkt3" target="_blank">
-                    <img src="https://via.placeholder.com/300x200.png?text=Produkt+3" alt="Produkt 3" class="affilia-image">
+</html>
