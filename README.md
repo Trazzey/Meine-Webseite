@@ -64,7 +64,7 @@
   </header>
   <main>
     <ul class="affiliate-links">
-      <li> <a href="https://amzn.to/3NwTEqg" target="_blank"> <"![rsho](https://github.com/user-attachments/assets/abd6eef9-8db9-42df-879a-528637a22313)">  </a>
+      <li> <a href="https://amzn.to/3NwTEqg" target="_blank"> <img src"![rsho](https://github.com/user-attachments/assets/abd6eef9-8db9-42df-879a-528637a22313)" alt="Kopfhörer">  </a>
         <p>Produkt 1: Kopfhörer</p>
       </li>
       <li> <a href="https://amzn.to/4eRhqJh" target="_blank"> <img src="![öl](https://github.com/user-attachments/assets/b861c84f-e2f6-468d-85a8-75bb1529cfa3)" alt="Rosmarinöl"> </a>
